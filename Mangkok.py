@@ -4,8 +4,8 @@ import customtkinter as ctk
 import threading
 import time
 from PIL import Image
-from bot import Bot
-from utils import log_message, resource_path
+from Mie import Bot
+from EsTeh import log_message, resource_path
 
 class App(ctk.CTk):
     def __init__(self):
